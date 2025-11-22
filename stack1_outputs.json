@@ -1,0 +1,74 @@
+{
+  "cluster_arn": {
+    "sensitive": false,
+    "type": "string",
+    "value": "arn:aws:rds:us-east-1:944186111100:cluster:my-aurora-serverless"
+  },
+  "cluster_endpoint": {
+    "sensitive": false,
+    "type": "string",
+    "value": "my-aurora-serverless.cluster-cbkas22dsyti.us-east-1.rds.amazonaws.com"
+  },
+  "db_endpoint": {
+    "sensitive": false,
+    "type": "string",
+    "value": "my-aurora-serverless.cluster-cbkas22dsyti.us-east-1.rds.amazonaws.com"
+  },
+  "db_reader_endpoint": {
+    "sensitive": false,
+    "type": "string",
+    "value": "my-aurora-serverless.cluster-ro-cbkas22dsyti.us-east-1.rds.amazonaws.com"
+  },
+  "private_subnet_ids": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string",
+        "string",
+        "string"
+      ]
+    ],
+    "value": [
+      "subnet-0efe110d9d0af8168",
+      "subnet-0e482196f6ad94727",
+      "subnet-02a7276523f0a14e7"
+    ]
+  },
+  "public_subnet_ids": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string",
+        "string",
+        "string"
+      ]
+    ],
+    "value": [
+      "subnet-0d6cbe5c8d6a45765",
+      "subnet-01716ef2f666963fb",
+      "subnet-054887059fc522f35"
+    ]
+  },
+  "s3_bucket_arn": {
+    "sensitive": false,
+    "type": "string",
+    "value": "arn:aws:s3:::bedrock-kb-944186111100"
+  },
+  "s3_bucket_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "bedrock-kb-944186111100"
+  },
+  "secret_arn": {
+    "sensitive": false,
+    "type": "string",
+    "value": "arn:aws:secretsmanager:us-east-1:944186111100:secret:my-aurora-serverless-ZI9Uh0"
+  },
+  "vpc_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "vpc-0f25d3b1e2a52b64b"
+  }
+}
